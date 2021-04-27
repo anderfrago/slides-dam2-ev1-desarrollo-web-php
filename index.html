@@ -8,16 +8,16 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="dist/style.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+			<div class="slides ">
+				<section data-markdown="dw-ev01-php\markdown.md" data-separator="^@@@@@@" data-separator-vertical="^%%%%%%%"></section>
 			</div>
 		</div>
 
@@ -31,7 +31,19 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				// The "normal" size of the presentation, aspect ratio will
+				// be preserved when the presentation is scaled to fit different
+				// resolutions. Can be specified using percentage units.
+				width: 1500,
+				height: 768,
 
+				// Factor of the display size that should remain empty around
+				// the content
+				margin: 0.01,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.1,
+				maxScale: 1.0,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
