@@ -1,9 +1,8 @@
 {
-  "name": "reveal.js",
+  "name": "2dam-dw",
   "version": "4.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
+  "description": "Desarrollo web con PHP",
+  "homepage": "https://cuatrovientos.org",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
   "license": "MIT",
@@ -13,13 +12,13 @@
     "build": "gulp"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Ander Frago Landa",
+    "email": "nau_frago@cuatrovientos.org",
+    "web": "https://anderfragolanda.netlify.app/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/anderfrago/slides-dam2-ev1-desarrollo-web-phpt"
   },
   "engines": {
     "node": ">=10.0.0"
