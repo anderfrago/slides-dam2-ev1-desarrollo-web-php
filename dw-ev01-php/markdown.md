@@ -5174,7 +5174,10 @@ Modelo-Vista-Controlador
 ### Arquitectura de 3 niveles
 La capa \"modelo\" en MVC se ha expandido en los últimos años. Por lo
 que he visto, hay dos, posiblemente tres tipos de modelos:
-
+%%%%%%%
+Modelo-Vista-Controlador
+-----------------------
+### Arquitectura de 3 niveles
 -   **Modelos de Dominio:** Éstas representan las \"cosas\" que le
     importan a \"The Business\": el Dominio de Negocio. Estas clases
     contienen datos y todos los procedimientos que operan sobre ellos
@@ -5182,13 +5185,19 @@ que he visto, hay dos, posiblemente tres tipos de modelos:
     los Modelos de Dominio están ligados a tablas en una base de datos.
     Esto parece encajar en la \"capa de negocio\" de la arquitectura de
     3 niveles.
-
+%%%%%%%
+Modelo-Vista-Controlador
+-----------------------
+### Arquitectura de 3 niveles
 -   **Modelos de vistas**: Estas son clases utilizadas para masajear los
     datos de los modelos de dominio en algo más agradable a la vista.
     Esto no encaja en ninguna parte de la arquitectura de 3 niveles
     porque los modelos de vista no implementan la lógica de negocio, ni
     proporcionan ningún tipo de servicio o acceso a datos.
-
+%%%%%%%
+Modelo-Vista-Controlador
+-----------------------
+### Arquitectura de 3 niveles
 -   **Modelos de Negocio**: En aplicaciones complejas, surge la
     necesidad de desacoplar el Modelo de Dominio de la Lógica de
     Negocio. Los Modelos de Negocio contienen datos y procedimientos que
