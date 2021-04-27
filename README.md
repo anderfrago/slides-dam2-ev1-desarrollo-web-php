@@ -5,8 +5,7 @@
 
 ## Desarrollo Web con PHP
 
-## Online Editor
-Presentación del temario de la evaluación 1 de la asignatura.
+[Presentación](slides-dam2-ev1-desarrollo-web-php/index.html) del temario de la evaluación 1 de la asignatura.
 
 ### Docente
 Frago, A.
